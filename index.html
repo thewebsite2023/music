@@ -1,38 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tạo Trình Phát Nhạc Sử Dụng HTML CSS và JavaScript</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <title>Music Play</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="code music player,JavaScript music player,Free JavaScript playlist music">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="shortcut icon" href="https://png.pngtree.com/element_our/png_detail/20181022/music-and-live-music-logo-with-neon-light-effect-vector-png_199406.jpg" type="image/x-icon">
 </head>
 <body>
-    
-    <audio src="" id="audio"></audio>
-    <div class="container">
-        <h1 class="song-name">Song name 1</h1>
-        <p class="artist">Artist 1</p>
-        <div class="box-disk">
-
+    <div>
+        <div class="wrapper" style="margin:50px 0px;">
+            <div class="top-bar">
+              <i class="material-icons">expand_more</i>
+              <span>Now Playing</span>
+              <i class="material-icons">more_horiz</i>
+            </div>
+            <div class="img-area">
+              <img src="" alt="">
+            </div>
+            <div class="song-details">
+              <p class="name"></p>
+              <p class="artist"></p>
+            </div>
+            <div class="progress-area">
+              <div class="progress-bar">
+                <audio id="main-audio" src=""></audio>
+              </div>
+              <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">0:00</span>
+              </div>
+            </div>
+            <div class="controls">
+              <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+              <i id="prev" class="material-icons">skip_previous</i>
+              <div class="play-pause">
+                <i class="material-icons play">play_arrow</i>
+              </div>
+              <i id="next" class="material-icons">skip_next</i>
+              <i id="more-music" class="material-icons">queue_music</i>
+            </div>
+            <div class="music-list">
+              <div class="header">
+                <div class="row">
+                  <i class= "list material-icons">queue_music</i>
+                  <span>Music list</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+              </div>
+              <ul>
+                <!-- here li list are coming from js -->
+              </ul>
+            </div>
         </div>
-        <div class="music-slider">
-            <input type="range" value="0" class="seek-bar"/>
-            <span class="current-time">00:00</span>
-            <span class="music-time">00:00</span>
-        </div>
-        <div class="controls">
-            <button class="btn btnback"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
-            <button class="btn-play pause">
-                <span></span>
-                <span></span>
-            </button>
-            <button class="btn btnnext"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
-        </div>
-
+      
     </div>
-    <script src="song.js"></script>
-    <script src="Jscript.js"></script>
-</body>
+
+  <script src="music-list.js"></script>
+  <script src="music.js"></script>
 </html>
