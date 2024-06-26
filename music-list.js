@@ -12,25 +12,25 @@ let allMusic = [
     name: "Toxic",
     artist: "Britney Spears",
     img: "Toxic",
-    src: "Toxic"
+    src: "Britney Spears  Toxic Official HD Video"
   },
  
   {
     name: "Gimme More",
     artist: "Britney Spears",
     img: "Gimme-More",
-    src: "Gimme-More"
+    src: "Britney Spears Gimme More Official HD Video"
   },
   {
     name: "Look What You Made Me Do",
     artist: "Taylor Swift",
     img: "Look-What-You-Made-Me-Do",
-    src: "Look-What-You-Made-Me-Do"
+    src: "Taylor Swift Look What You Made Me Do"
   },
   {
     name: "Baby",
     artist: "Justin Bieber",
-    img: "Baby",
+    img: "Justin Bieber Baby ft Ludacris",
     src: "Baby"
   },
   {
@@ -43,12 +43,12 @@ let allMusic = [
     name: "Womanizer",
     artist: "Britney Spears",
     img: "Womanizer",
-    src: "Womanizer"
+    src: "Britney Spears Womanizer Directors Cut Official HD Video"
   },
   {
     name: "Telephone",
     artist: "Lady Gaga",
     img: "Telephone",
-    src: "Telephone"
+    src: "Telephone Lady Gaga Feat Beyonce Lyrics"
   },
 ];
