@@ -12,7 +12,7 @@ let allMusic = [
     name: "Toxic",
     artist: "Britney Spears",
     img: "Toxic",
-    src: "Britney Spears  Toxic Official HD Video"
+    src: "Britney Spears Toxic Official HD Video"
   },
  
   {
@@ -31,7 +31,7 @@ let allMusic = [
     name: "Baby",
     artist: "Justin Bieber",
     img: "Justin Bieber Baby ft Ludacris",
-    src: "Baby"
+    src: "Justin Bieber Baby ft Ludacris"
   },
   {
     name: "Circus",
